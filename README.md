@@ -46,7 +46,7 @@ Retinopathy refers to damage to the blood vessels in the retina, the light-sensi
    https://colab.research.google.com/
    ```
 
-2. Upload the dataset of four classes to Google drive (The dataset has the MRIs images of brain).
+2. Upload the dataset of four classes to Google drive (The dataset has the FUNDUS images of eye).
     ```
     from google.colab import drive
     drive.mount('/content/drive')
@@ -65,7 +65,7 @@ Retinopathy refers to damage to the blood vessels in the retina, the light-sensi
 
 7. Include visualizations, such as predicted classes or probability scores, to enhance result interpretation.
 
-8. Repeat the process by providing new inputs, changing the optimizer, Ephocs and with different MRIs.
+8. Repeat the process by providing new inputs, changing the optimizer, Ephocs and with different Fundus images.
 a
 ### Mathematical Equations
 #### 1. Accuracy:
@@ -345,9 +345,9 @@ plt.title("Confusion Matrix", fontweight="bold")
 plt.xlabel("Predicted", fontweight="bold")
 plt.ylabel("True", fontweight="bold")
 ```
-### FUNDUS images Probability of a Random MRI from Test Data
+### FUNDUS disease Probability of a Random fundus images from Test Data
 ```py
-def random_mri_prob_bringer(image_number=0):
+def random_fundus_prob_bringer(image_number=0):
 
     for images, _ in test_data.skip(5).take(1):
         image = images[image_number]
@@ -381,10 +381,10 @@ def random_mri_prob_bringer(image_number=0):
     for autotext in autopct:
         autotext.set_color('black')
 
-    ax2.set_title('FUNDUS iamges Probabilities', color="yellow", fontweight="bold", fontsize=16)
+    ax2.set_title('FUNDUS images Probabilities', color="yellow", fontweight="bold", fontsize=16)
 
 rand_img_no = np.random.randint(1, 32)
-random_mri_prob_bringer(image_number=rand_img_no)
+random_fundus_prob_bringer(image_number=rand_img_no)
 ```
 ### Comparing Predicted Classes with the Actual Classes from the Test Data
 ```py
