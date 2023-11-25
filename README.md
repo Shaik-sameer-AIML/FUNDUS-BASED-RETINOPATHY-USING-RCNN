@@ -56,7 +56,7 @@ Retinopathy refers to damage to the blood vessels in the retina, the light-sensi
 
 4. Execute the Fundus Disease Detection script in the Colab notebook, which may involve adapting the script to run within a notebook environment.
 
-5. Make sure that the Alzheimer' Disease Prediction script runs within the Colab notebook environment and required packages are installed in the Colab environment using the following commands.
+5. Make sure that the Retinopathy Disease Prediction script runs within the Colab notebook environment and required packages are installed in the Colab environment using the following commands.
     ```
     !pip install package_name
     ```
