@@ -169,7 +169,7 @@ def sample_bringer(path, target, num_samples=5):
     image_files = [image for image in os.listdir(class_path) if image.endswith('.jpg')]
 
     fig, ax = plt.subplots(1, num_samples, facecolor="gray")
-    fig.suptitle(f'{target} Brain MRI Samples', color="yellow",fontsize=16, fontweight='bold', y=0.75)
+    fig.suptitle(f'{target} Fundus Images Eye Samples', color="yellow",fontsize=16, fontweight='bold', y=0.75)
 
     for i in range(num_samples):
         image_path = os.path.join(class_path, image_files[i])
@@ -362,7 +362,7 @@ def random_mri_prob_bringer(image_number=0):
     fig, (ax1, ax2) = plt.subplots(1, 2, facecolor='black')
     plt.subplots_adjust(wspace=0.4)
     ax1.imshow(image)
-    ax1.set_title('Brain MRI', color="yellow", fontweight="bold", fontsize=16)
+    ax1.set_title('Fundus Images', color="yellow", fontweight="bold", fontsize=16)
 
     edges = ['left', 'bottom', 'right', 'top']
     edge_color = "greenyellow"
