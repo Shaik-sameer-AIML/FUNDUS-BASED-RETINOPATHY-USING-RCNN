@@ -412,23 +412,24 @@ for images, labels in test_data.take(1):
 
 ## Output:
 ### Fundus Retinopathy Sample in Batch
-![MRISampleInBatch](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/69161323-cb13-4acd-8390-cba01eaef462)
+![fundus samples](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/0182f3cf-8911-4170-848c-5c7114d4cca5)
 
 ### Predicted Values
-![Prediction](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/fa0ae96a-a5c5-425d-9ce4-5d3cf6eef093)
+
+![predicted values](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/b0faf9c8-3d81-4485-9a49-642834f24211)
 
 ### Loss and Accuracy
-![LossandAccuracy](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/7783630e-5650-4315-a0b3-95add1c8ba76)
+![loss and accuracy](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/7883e61d-ae11-42ae-86e1-bb65024cdc01)
 
 ### Confussion Matrix
-![ConfussionMatrix](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/33c8a9c1-63f9-41f8-bcc5-7e70b322d533)
+![confusion matrix](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/25976386-bccb-476b-b90d-84dd9212f48c)
 
 ### Retinopathy Probability of a Random Fundus images Test Data
-![ProbabilityOfRandomMRI](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/5332d958-94f9-44e2-b1d7-1d487d7d4aa3)
+![distribution](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/9256f913-743e-49fd-a04d-4dc8510f81ed)
 
 ### Predicted Output
-![FinalOutput](https://github.com/kiran03-jagadeesh/ALZHIMER-S-DISEASE-DETECTION-USING-DEEP-LEARNING-MINIPROJECT/assets/94174536/b64b9594-8898-41a4-b5e4-f107727147a2)
 
+![final](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/88394ce5-874d-4dd2-ac9d-1da9d6ab856b)
 
 ## Result:
 
