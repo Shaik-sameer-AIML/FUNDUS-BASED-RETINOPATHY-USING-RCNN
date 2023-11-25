@@ -66,7 +66,7 @@ Retinopathy refers to damage to the blood vessels in the retina, the light-sensi
 7. Include visualizations, such as predicted classes or probability scores, to enhance result interpretation.
 
 8. Repeat the process by providing new inputs, changing the optimizer, Ephocs and with different Fundus images.
-a
+
 ### Mathematical Equations
 #### 1. Accuracy:
 The accuracy measures the overall correctness of the classification model. It is
@@ -421,7 +421,7 @@ for images, labels in test_data.take(1):
 ### Loss and Accuracy
 ![loss and accuracy](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/7883e61d-ae11-42ae-86e1-bb65024cdc01)
 
-### Confussion Matrix
+### Confusion Matrix
 ![confusion matrix](https://github.com/Shaik-sameer-AIML/FUNDUS-BASED-RETINOPATHY-USING-RCNN/assets/93427186/25976386-bccb-476b-b90d-84dd9212f48c)
 
 ### Retinopathy Probability of a Random Fundus images Test Data
